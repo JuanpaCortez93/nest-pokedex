@@ -18,3 +18,22 @@
 ```
   docker-compose up -d
 ```
+
+5. Clonar el archivo **.env.template**
+
+6. Recontruir la base de datos con la semilla
+
+```
+  http://localhost:3000/seed/
+```
+
+7. Ejecutar la aplicación de desarrollo en dev:
+
+```
+npm run start:dev
+```
+
+## Stack usado
+
+- MongoDB
+- NestJs
